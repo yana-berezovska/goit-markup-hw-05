@@ -483,6 +483,7 @@ button {
 .footer-form {
   display: flex;
   margin-bottom: 132px;
+  gap: 24px;
 }
 .footer-input {
   background-color: transparent;
@@ -493,14 +494,15 @@ button {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-left: 80px;
-}
-.footer-input::placeholder {
+  padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-  padding-left: 16px;
+}
+.footer-input::placeholder {
+  color: #ffffff;
 }
 .footer-btn {
   display: flex;
@@ -515,14 +517,14 @@ button {
   text-align: center;
   color: #ffffff;
   border-radius: 4px;
-  padding: 8px 24px;
+
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   padding-top: 8px;
   padding-left: 24px;
   padding-bottom: 8px;
-  margin-left: 24px;
+
   border: none;
 }
 .icon-btn {
@@ -569,6 +571,7 @@ footer .logo-style {
   background: #fcfcfc;
   padding: 24px;
   padding-top: 72px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn {
   position: absolute;
@@ -610,7 +613,7 @@ footer .logo-style {
   color: #2e2f42;
 }
 .form-wraper-cont {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-person-label {
@@ -660,7 +663,7 @@ footer .logo-style {
   outline: transparent;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 
