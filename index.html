@@ -476,12 +476,14 @@
         <div class="footer-form-container">
           <p class="footer-form-text">Subscribe</p>
           <form class="footer-form">
-            <input
-              class="footer-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
+            <label class="footer-form-label"
+              ><input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+            /></label>
+
             <button class="footer-btn" type="submit">
               Subscribe
               <svg class="icon-btn" width="24" height="24">
@@ -503,16 +505,16 @@
 
         <form class="modal-form">
           <div class="form-wraper-cont">
-            <label class="form-person-label" for="form-name">Name</label>
+            <label class="form-person-label" for="user-name">Name</label>
             <div class="form-user-icon-wrapper">
               <input
                 class="form-person-input"
                 type="text"
-                name="name"
-                id="form-name"
+                name="user-name"
+                id="user-name"
                 required
               />
-              <svg class="form-person-icon" width="18" height="18">
+              <svg class="form-person-icon" width="18" height="24">
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </div>
@@ -527,7 +529,7 @@
                 id="form-tel"
                 required
               />
-              <svg class="form-person-icon" width="18" height="18">
+              <svg class="form-person-icon" width="18" height="24">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
             </div>
@@ -542,57 +544,32 @@
                 id="form-email"
                 required
               />
-              <svg class="form-person-icon" width="18" height="18">
+              <svg class="form-person-icon" width="18" height="24">
                 <use href="./images/icons.svg#email"></use>
               </svg>
             </div>
           </div>
-          <!-- <div class="form-cont">
-            <label class="form-label"
-              >Phone
-              <input class="modal-input" type="tel" name="tel" />
-            </label>
-            <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#phone"></use>
-            </svg>
-          </div>
-          <div class="form-cont">
-            <label class="form-label"
-              >Email
-              <input class="modal-input" type="email" name="email" />
-            </label>
-            <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#email"></use>
-            </svg>
-          </div>
-          <div class="form-cont">
-            <label class="form-label"
-              >Comment
-              <textarea
-                class="modal-input"
-                type="text"
-                name="comment"
-              ></textarea>
-            </label>
-          </div> -->
+
           <div class="form-wraper-cont">
-            <label class="form-person-label" for="form-comment">Comment</label>
+            <label class="form-person-label" for="user-comment">Comment</label>
             <textarea
               class="form-person-comment"
               type="text"
-              id="form-comment"
+              id="user-comment"
               placeholder="Text input"
+              name="user-comment"
             ></textarea>
           </div>
           <div class="form-wrapper-checkbox">
             <input
               class="checkbox visually-hidden"
               type="checkbox"
-              name="accept"
-              id="form-person-checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="form-person-checkbox" for="form-person-checkbox"
+            <label class="form-person-checkbox" for="user-privacy"
               ><span class="castom-checkbox"
                 ><svg class="castom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-ok"></use></svg></span
