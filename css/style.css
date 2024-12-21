@@ -612,6 +612,9 @@ footer .logo-style {
   text-align: center;
   color: #2e2f42;
 }
+.form-wraper {
+  margin-bottom: 8px;
+}
 .form-wraper-cont {
   margin-bottom: 16px;
 }
